@@ -1,8 +1,7 @@
 {
   "name": "roland",
   "private": true,
-  "homepage": "https://github.com/roland-adams2007/Roland",
-  
+  "homepage": "https://github.com/roland-adams2007/Roland/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
