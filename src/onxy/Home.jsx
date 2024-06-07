@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "typed.js";
 import ScrollReveal from 'scrollreveal';
-import me from "./assets/images/me.png"
+import me from "./images/me.png"
 
 const Home=()=>{
 
