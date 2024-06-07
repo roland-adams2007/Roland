@@ -72,7 +72,7 @@ ScrollReveal().reveal(".home_img,.about_info,.service_body,.skill_body,.porfoilo
     </div>
     <div className="home_img">
       <div  className="bg_img" >
-        <img src="/images/me.png" />
+        <img src="/../images/me.png" />
       </div>
     </div>
   </div>
