@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from "typed.js";
 import ScrollReveal from 'scrollreveal';
+import me from "./assets/images/me.png"
 
 const Home=()=>{
 
@@ -70,7 +71,7 @@ ScrollReveal().reveal(".home_img,.about_info,.service_body,.skill_body,.porfoilo
     </div>
     <div className="home_img">
       <div  className="bg_img" >
-        <img src="/images/me.png" />
+        <img src={me} />
       </div>
     </div>
   </div>
