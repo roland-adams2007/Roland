@@ -1,4 +1,4 @@
-import Me from '../assets/images/me.png'
+
 
 const About=()=>{
     return(
@@ -13,7 +13,7 @@ const About=()=>{
       </div>
 
     <div className="about_img">
-      <img src={Me} />
+      <img src="/Roland/images/me.png" />
     </div>
     <div className="about_info">
       <div className="about_header g">
