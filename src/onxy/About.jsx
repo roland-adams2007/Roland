@@ -1,3 +1,5 @@
+import Me from '../assets/images/me.png'
+
 const About=()=>{
     return(
 <>
@@ -11,7 +13,7 @@ const About=()=>{
       </div>
 
     <div className="about_img">
-      <img src="/images/me.png" />
+      <img src={Me} />
     </div>
     <div className="about_info">
       <div className="about_header g">
