@@ -1,3 +1,10 @@
+import Project from '../assets/images/project.jpeg'
+import Project2 from '../assets/images/project2.jpeg'
+
+import Project3 from '../assets/images/project3.jpeg'
+
+
+
 const Portfolio=()=>{
     return(
         <>
@@ -13,7 +20,7 @@ const Portfolio=()=>{
       <div className="row_content">
         <div className="col_content">
           <div className="col_img">
-            <img src="/images/project.jpeg" />
+            <img src={Project} />
           </div>
           <div className="col_name">
             <h3>LoveCare</h3>
@@ -29,7 +36,7 @@ const Portfolio=()=>{
         </div>
         <div className="col_content">
           <div className="col_img">
-            <img src="/images/project2.jpeg" />
+            <img src={Project2} />
           </div>
           <div className="col_name">
             <h3>Xtellar(XtellarShop)</h3>
@@ -45,7 +52,7 @@ const Portfolio=()=>{
         </div>
         <div className="col_content">
           <div className="col_img">
-            <img src="/images/project3.jpeg" />
+            <img src={Project3} />
           </div>
           <div className="col_name">
             <h3>CoffeeWorld</h3>
